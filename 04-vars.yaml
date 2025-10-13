@@ -1,7 +1,7 @@
 - name: play-level variables
   hosts: localhost
   connection: local
-  variables:
+  vars:
     course: "Ansible Automation"
     duration: "5 days"
     trainer: "David"
