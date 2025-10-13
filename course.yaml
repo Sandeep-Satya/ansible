@@ -1,3 +1,3 @@
-    COURSE: "Ansible Automation"
-    DURATION: "5 days"
-    TRAINER: "David"
+    course: "Ansible Automation"
+    duration: "5 days"
+    trainer: "David"
