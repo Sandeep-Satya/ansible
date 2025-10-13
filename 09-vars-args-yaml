@@ -8,4 +8,4 @@
   tasks:
   - name: display course information
     ansible.builtin.debug:
-      msg: "Welcome to {{ course }}. The duration of this course is {{ duration }} and the trainer is {{ trainer }}"
+      msg: "Welcome to {{ course }}. The duration of this course is {{ duration }} and the trainer is {{ Trainer }}"
