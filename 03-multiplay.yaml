@@ -1,7 +1,7 @@
 - name: play-01
   hosts: fronted 
   tasks:
-  - name: play-01 and tasks-01
+  - name: play-01 and task-01
     ansible.buildin.debug:
       msg: "hello from play-01 and task-01"
 
