@@ -10,7 +10,7 @@
         private: no
       - name: "trainer"
         prompt: "Enter the trainer name"
-        private: ture
+        private: "ture"
   tasks:
   - name: display course information
     ansible.builtin.debug:
