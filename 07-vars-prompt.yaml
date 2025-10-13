@@ -12,6 +12,6 @@
         prompt: "Enter the trainer name"
         private: yes
   tasks:
-  - name: display course information
+  - name: 
     ansible.builtin.debug:
         msg: "Welcome to {{ course }}. The duration of this course is {{ duration }} and the trainer is {{ trainer }}"
