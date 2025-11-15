@@ -1,11 +1,12 @@
-- name: loops
+- name: install packeges using loop
   hosts: local
   connection: local
+  become: true
   tasks:
   - name: print names
-    ansible.builtin.debug:
-      msg: "hello {{ item }}"
+    ansible.builtin.package:
+      msg: "{{ item }}"
     loop:
-      - Alice 
-      - Bob
-      - Charlie 
+      - nginx
+      - mysql
+       
