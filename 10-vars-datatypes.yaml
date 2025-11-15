@@ -1,4 +1,4 @@
-name = data types
+name: datatypes
   hosts: local
   connection: local
   vars:
