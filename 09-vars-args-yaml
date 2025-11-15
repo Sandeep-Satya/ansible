@@ -1,4 +1,4 @@
-- name: play-level variables
+- name: variables from args
   hosts: localhost
   connection: local
   # vars:
