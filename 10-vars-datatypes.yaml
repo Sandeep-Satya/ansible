@@ -1,7 +1,7 @@
-name: datatypes
-hosts: local
-connection: local
-vars:
+- name: datatypes
+  hosts: local
+  connection: local
+  vars:
     string_var: "This is a string"
     int_var: 42
     float_var: 3.14
@@ -13,7 +13,7 @@ vars:
     dict_var:
       key1: value1
       key2: value2
-tasks:
+  tasks:
   - name: display variable types
     ansible.builtin.debug:
       msg:
