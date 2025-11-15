@@ -1,10 +1,10 @@
 - name: play-level variables
   hosts: localhost
   connection: local
-  vars:
-    course: "Ansible Automation"
-    duration: "5 days"
-    trainer: "David"
+  # vars:
+  #   course: "Ansible Automation"
+  #   duration: "5 days"
+  #   trainer: "David"
   tasks:
   - name: display course information
     ansible.builtin.debug:
